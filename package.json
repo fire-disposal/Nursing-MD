@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "npm run gen:sidebar && vitepress build docs",
-    "preview": "vitepress preview docs"
+    "preview": "vitepress preview docs",
+    "docs:build": "npm run build"
   },
   "dependencies": {
     "katex": "^0.16.22"
