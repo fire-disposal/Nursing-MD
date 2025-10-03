@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "vitepress dev docs",
-    "build": "npm run gen:sidebar && vitepress build docs",
+    "build": "vitepress build docs",
     "preview": "vitepress preview docs",
     "docs:build": "npm run build"
   },
