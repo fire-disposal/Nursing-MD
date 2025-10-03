@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "vite": "^5.0.10",
+    "vite-plugin-vitepress-auto-nav": "^3.0.0",
+    "vite-plugin-vitepress-auto-sidebar": "^1.7.1",
+    "vitepress": "^1.2.3",
+    "vue": "^3.5.0"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "npm run gen:sidebar && vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "katex": "^0.16.22"
+  }
+}

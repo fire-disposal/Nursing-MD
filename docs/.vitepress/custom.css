@@ -1,0 +1,6 @@
+/* 扩宽 VitePress 右侧 outline 区域宽度 */
+.VPDoc .VPDocOutline {
+  width: 320px !important;
+  min-width: 320px !important;
+  max-width: 400px !important;
+}
